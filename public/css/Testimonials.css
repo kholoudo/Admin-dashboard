@@ -1,0 +1,23 @@
+
+
+/* .card {
+    border: none;
+    background-color: rgb(223, 223, 217);
+} */
+
+.user-content p {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.ratings i {
+    color: #D27E01;
+}
+
+.testi-head{
+    text-align: center;
+    font-weight: bold;
+    color: #276FB4;
+    margin: 0.5em;
+    padding:0.5em;
+}

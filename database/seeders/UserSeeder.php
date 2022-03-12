@@ -18,21 +18,7 @@ class UserSeeder extends Seeder
         public function run()
         {
              //
-             DB::table('categories')->insert([
-                [
-                    'category_name' => 'home_maintenance',
-
-                ],
-                [
-                    'category_name' => 'car_services',
-
-
-                ],
-                [
-                    'category_name' => 'educational',
-
-
-                ]]);
+        
 
      }
     }

@@ -1,0 +1,176 @@
+/*//////////////////////////////////////////////// explore styling  */
+/* body{
+    background-color: #f1e6b5;
+}
+#app{
+    background-color: #f1e6b5;
+} */
+
+.landingpage-explore {
+    /* background-color: #f0e76a; */
+    padding: 2em;
+  }
+  .bg-primary{
+      background-color:#f1bb68!important ;
+      border-radius: 0.5rem;
+      margin-bottom: 1em;
+  }
+.contact-btn{
+    background-color: #276FB4;
+    padding: 0.5em;
+    border-radius: 0.5rem;
+}
+.wrapper{
+    color:#276FB4;
+}
+
+
+
+
+  .landingpage-explore h4 {
+    text-align: center;
+    font-weight: bold;
+    color: #276FB4;
+    display: flex;
+    justify-content: center;
+    /* border-bottom: solid; */
+    width: 40%;
+    align-items: center;
+    margin: 2em auto;
+    padding-bottom: 0.5em;
+  }
+  .landingpage-explore-service {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .landingpage-explore-service h5{
+      margin-top: 0.5em;
+  }
+
+  /* ///////////////////////////////////////////////////about styling  */
+  .landingpage-about {
+    display: flex;
+    margin: 2em;
+    border-radius: 0.5rem;
+    background-color:#f1bb68;
+    padding: 2em;
+  }
+  .landingpage-about-img {
+    flex: 40%;
+    border-radius: 0.5rem;
+  }
+  .landingpage-about-img img {
+    width: 100%;
+  }
+  .landingpage-about-text {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3em;
+    text-align: center;
+    margin-top: 5em;
+    color: #276FB4;
+  }
+  .landingpage-about-text h3 {
+    font-weight: bold;
+    color: #276FB4;
+  }
+  .landingpage-about-text p {
+    padding: 1em 3em;
+  }
+  /* //////////////////////////////////////////card styling  */
+  .event-card-body {
+    background-color: #f1bb68;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    /* border: 1px solid black; */
+    margin: 0.5em;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.15);
+
+
+  }
+  .event-card-img, .event-card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);}
+  .event-card-img-top{
+      width: 70%;
+      margin-top: 1em;
+
+  }
+  /*/////////////////////////////////////////// testimonials styling */
+  .testimonials {
+    padding: 1em 0;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .testimonials-item img {
+    width: 9.375em;
+    height: 9.375em;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    z-index: 99;
+  }
+  .testimonials-info {
+    background-color: #fff;
+    padding: 5.5rem 2rem 2rem 2rem;
+    margin-top: -7em;
+    box-shadow: rgba(0, 0, 0, 0.15);
+  }
+  .testimonials-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+  }
+  .testimonials-body {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  .testimonials-info p {
+    color: #7c8595;
+    font-style: italic;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  .testimonials-info h6 {
+    color: black;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  .testimonoals-rating {
+    text-align: center;
+    color: #fdcc28;
+  }
+  .landingpage-Testimonials {
+    background-color: #fafbfc;
+    padding-top: 2em;
+  }
+  .landingpage-Testimonials-cards {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+  }
+  .landingpage-Testimonials h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #276FB4;
+  }

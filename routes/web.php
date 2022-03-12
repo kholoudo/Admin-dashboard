@@ -3,7 +3,8 @@
 use App\Http\Controllers\admin\UserController;
 use App\Http\Controllers\admin\IndexController;
 use App\Http\Controllers\admin\CategoryController;
-use App\Http\Controllers\admin\ServiceController;
+use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\admin\ContactController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -47,3 +48,24 @@ Route::get('deleteservice/{id}', [ServiceController::class, 'destroy']);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Route::get('/', function () {
+    return view('layouts.index');
+});
+
+
+Route::get('/about-us', function () {
+    return view('layouts.about-us');
+});
+
+Route::get('/services', function () {
+    return view('layouts.services');
+});
+
+Route::get('/contact', [App\Http\Controllers\ContactController::class, 'index']);
+Route::post('/contact-store', [App\Http\Controllers\ContactController::class, 'store'])->name('contact-store');
+Route::get('/details',[ServiceController::class, 'index']);
+// Route::get('/details', function () {
+//     return view('layouts.details');
+// });

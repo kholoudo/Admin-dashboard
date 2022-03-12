@@ -19,12 +19,12 @@ class IndexController extends Controller
     {
 
 
-        $adminName=User::where('role','=','admin')->get();
+        // $adminName=User::where('role','=','admin')->get();
         // dd($adminName);
         $allUsers = User::all();
         $allService = Service::all();
         $allCategory = Category::all();
-        return view('admin.index', compact('allUsers', 'allService','allCategory','adminName'));
+        return view('admin.index', compact('allUsers', 'allService','allCategory'));
 
         // $allUsers = User::all();
         // $allService = Service::all();

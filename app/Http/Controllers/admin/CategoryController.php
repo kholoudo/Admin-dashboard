@@ -17,7 +17,8 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $categories=Category::all();
+        // $categories=Category::all();
+        $categories = Category::where('id',1)->get();
         return view('admin/categories/index', compact('categories'));
      }
 
@@ -93,7 +94,7 @@ class CategoryController extends Controller
     {
         $category=Category::findOrFail($category_id);
         $category->category_name=$request->input('category_name');
-        
+
 
         $category->update();
     return redirect()->back();
