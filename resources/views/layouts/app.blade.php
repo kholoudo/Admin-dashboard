@@ -50,6 +50,7 @@
     <link href="{{ asset('css/book.css') }}" rel="stylesheet">
     <link href="{{ asset('css/profile.css') }}" rel="stylesheet">
     <link href="{{ asset('css/details.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/single.css') }}" rel="stylesheet">
     <link href="{{ asset('css/owl.theme.default.min.css') }}" rel="stylesheet">
     {{-- <link href="{{ asset('css/owl.carousel.min.css') }}" rel="stylesheet"> --}}
 

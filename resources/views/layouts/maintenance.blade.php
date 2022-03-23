@@ -28,7 +28,9 @@
         </tr>
     </tbody>
 </table>
-
+<div style="text-align:center;margin:0.5em;">
+<a href="{{url('/book')}}"> <button class="add-to-cart" >Book Now</button></a>
+</div>
 
 
 

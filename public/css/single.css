@@ -1,0 +1,74 @@
+
+
+.product-image {
+  display: none;
+}
+
+.image-list li{
+
+    margin: 0;
+  }
+
+
+
+  .product-image img, .image-list img {
+    width: 100%;
+  }
+
+  .product-image {
+    display: block;}
+    img {
+      height: 52vh;
+
+        display: block;
+        margin: 0 0 0.75rem 0;
+      }
+
+      .add-to-cart {
+        position: relative;
+        display: inline-block;
+        border: none;
+        border-radius: 0;
+        padding: 1.25rem 2.5rem;
+        font-size: 1rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        transform: translateZ(0);
+        transition: color 0.3s ease;
+        letter-spacing: 0.0625rem;
+    text-align: center;}
+
+
+
+
+  .image-list {
+    display: flex;
+    overflow: hidden;}
+    li {
+      margin: 0 0.75rem 0 0;
+      flex-basis: 100%;
+
+    }
+    img {
+      height: 10rem;
+      width: 100%;
+      transition: opacity 0.3s ease;
+      cursor: pointer;}
+      img:hover {
+        opacity: 0.7;
+      }
+
+
+
+
+
+@keyframes fadeImg {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
