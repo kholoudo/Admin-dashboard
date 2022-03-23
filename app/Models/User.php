@@ -26,6 +26,17 @@ class User extends Authenticatable
         'mobile_number',
 
     ];
+    public function users()
+    {
+        return $this->belongsToMany(Service::class, 'services_users')
+            ->withPivot('id')
+            ->withPivot('mobile_number')
+            ->withPivot('service_name')
+            ->withPivot('date')
+            ->withPivot('time')
+            ->withPivot('note');
+    }
+
 
     /**
      * The attributes that should be hidden for serialization.

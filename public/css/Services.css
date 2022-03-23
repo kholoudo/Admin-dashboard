@@ -1,104 +1,64 @@
-.cards-list {
-    z-index: 0;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.service {
+    position: relative;
+    width: 95%;
+    padding: 45px 0 15px 0;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr 1fr; */
     /* display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    flex-wrap: wrap; */
-  }
-  .cards-container{
-      display:flex;
-      flex-direction: column;
-      align-items: center;
-  }
-  .cards-container h4{
-      margin:0.7em;
-      padding:0.5em;
-  }
+    flex-direction: column; */
+    margin-left: 1em;
+}
 
-  .service-btn {
-      text-align: center;
-      margin:0.5em;
-  }
-  .service-btn button{
-      padding: 0.2em;
-  }
 
-  .service-card {
-
-    margin: 30px auto;
-    width: 300px;
-    height: 300px;
-    border-radius: 40px;
-   box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-    cursor: pointer;
-    transition: 0.4s;
-
-  }
-
-  .service-card .card_image {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-  }
-
-  .service-card .card_image img {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-    object-fit: cover;
-
-  }
-
-  .service-card .card_title {
+.service .service-item {
+    margin: 0.5em;
+    position: relative;
+    width: 100%;
     text-align: center;
-    border-radius: 0px 0px 40px 40px;
-    font-family: sans-serif;
-    font-weight: bold;
+    background: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+}
+
+.service .service-item img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.service .service-item h3 {
+    margin: 0;
+    padding: 25px 15px 15px 15px;
     font-size: 20px;
-    /* margin-top:40px; */
-    margin-top: -40px;
-    height: 40px;
-  }
+    font-weight: 300;
+    color: #00539C;
+}
 
-  .service-card:hover {
-    /* filter: invert(0.10); */
-    transform: scale(0.9, 0.9);
-    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25),
-      -5px -5px 30px 15px rgba(0,0,0,0.22);
+.service .service-item p {
+    margin: 0;
+    padding: 0 25px 25px 25px;
+    font-size: 16px;
+}
 
-  }
+.service .service-item a.btn {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    background: #FFD662;
+    transition: .3s;
+}
 
-  /* .title-white {
-    color: white;
-  } */
+.service .service-item:hover a.btn {
+    color: #ffffff;
+    background: #00539C;
+}
 
-  .title-black {
-    color: black;
-  }
-
-  @media all and (max-width: 500px) {
-    .card-list {
-      /* On small screens, we are no longer using row direction but column */
-      flex-direction: column;
-    }
-  }
-
-
-  /*
-  .card {
-    margin: 30px auto;
-    width: 300px;
-    height: 300px;
-    border-radius: 40px;
-    background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-repeat: no-repeat;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-    transition: 0.4s;
-  }
-  */
+.service .service-item a.btn:hover {
+    color: #000000;
+    background: #FFD662;
+}

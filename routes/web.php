@@ -5,6 +5,9 @@ use App\Http\Controllers\admin\IndexController;
 use App\Http\Controllers\admin\CategoryController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\admin\ContactController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\Services_UserController;
+
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -36,6 +39,8 @@ Route::put('updatecategory/{id}',[CategoryController::class,'update']);
 Route::get('/admin/categories/add', [CategoryController::class, 'create'])->name('admin.categories.create');
 Route::post('/admin/categories/add', [CategoryController::class, 'store'])->name('admin.categories.store');
 Route::get('deletecategory/{id}', [CategoryController::class, 'destroy']);
+ROUTE::get('user-profile',[ProfileController::class,'index']);
+Route::post('/user-profile-update', [ProfileController::class, 'update'])->name('users.edit');
 
 Route::get('services',[ServiceController::class,'index']);
 Route::get('editservice/{id}',[ServiceController::class,'edit']);
@@ -66,6 +71,30 @@ Route::get('/services', function () {
 Route::get('/contact', [App\Http\Controllers\ContactController::class, 'index']);
 Route::post('/contact-store', [App\Http\Controllers\ContactController::class, 'store'])->name('contact-store');
 Route::get('/details',[ServiceController::class, 'index']);
-// Route::get('/details', function () {
-//     return view('layouts.details');
-// });
+Route::get('/homeclean', function () {
+    return view('layouts.homeclean');
+});
+Route::get('/car', function () {
+    return view('layouts.car');
+});
+
+Route::get('/maintenance', function () {
+    return view('layouts.maintenance');
+});
+
+Route::get('/baby', function () {
+    return view('layouts.baby');
+});
+Route::get('/lessons', function () {
+    return view('layouts.lessons');
+});
+
+Route::get('/book', [App\Http\Controllers\Services_UserController::class, 'index']);
+Route::post('/book', [App\Http\Controllers\Services_UserController::class, 'store'])->name('book.store');
+Route::get('/profile', function () {
+    return view('layouts.profile');
+});
+
+Route::get('/single', function () {
+    return view('layouts.single');
+});

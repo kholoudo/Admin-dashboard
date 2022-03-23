@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -19,6 +20,14 @@
 <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+<link rel="stylesheet" href="css/style.css">
     <!-- Styles -->
     <link
     rel="stylesheet"
@@ -30,6 +39,7 @@
      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    {{-- <link href="{{ asset('css/style.css') }}" rel="stylesheet"> --}}
 
     <link href="{{ asset('css/Intro.css') }}" rel="stylesheet">
     <link href="{{ asset('css/Home.css') }}" rel="stylesheet">
@@ -37,6 +47,12 @@
     <link href="{{ asset('css/Footer.css') }}" rel="stylesheet">
     <link href="{{ asset('css/Testimonials.css') }}" rel="stylesheet">
     <link href="{{ asset('css/services.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/book.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/profile.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/details.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/owl.theme.default.min.css') }}" rel="stylesheet">
+    {{-- <link href="{{ asset('css/owl.carousel.min.css') }}" rel="stylesheet"> --}}
+
 
 
 </head>
@@ -108,15 +124,16 @@
           <div class="row">
             <div class="col-sm-12 col-md-6">
               <h6>About</h6>
-              <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+              <p class="text-justify">Service Way <i>Online platform </i>is a platform that is specialized in providing different types of most needed services in our daily life.Through Serviceway you can choose the service you are looking for and book it at a certain date and time taking in consideration your convenienty and vailability.
+              </p>
             </div>
 
             <div class="col-xs-6 col-md-3">
               <h6>Categories</h6>
               <ul class="footer-links">
-                <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
-                <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
-                <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+                <li><a  href="{{ url('/services') }}">Car Services</a></li>
+                <li><a  href="{{ url('/services') }}">Kids Services</a></li>
+                <li><a href= href="{{ url('/services') }}">Home Maintenance</a></li>
                 {{-- <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
                 <li><a href="http://scanfcode.com/category/android/">Android</a></li>
                 <li><a href="http://scanfcode.com/category/templates/">Templates</a></li> --}}
@@ -140,8 +157,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12">
-              <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
-           <a href="#">Scanfcode</a>.
+              <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by
+           <a href="#">ServiceWay</a>.
               </p>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
@@ -174,7 +191,7 @@
     <script src={{asset("js/bootstrap.min.js")}}></script>
     <script src={{asset("js/owl.carousel.min.js")}}></script>
     <script src={{asset("js/main.js")}}></script>
-
+    <script src={{asset("js/book.js")}}></script>
 
 
 

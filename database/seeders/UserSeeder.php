@@ -17,8 +17,38 @@ class UserSeeder extends Seeder
          */
         public function run()
         {
-             //
+            // 'name',
+            // 'email',
+            // 'email_verified_at',
+            // 'password',
+            // 'role',
+            // 'mobile_number',
+            DB::table('users')->insert([
+            
+            
         
+                [
+                   
+                    'name' => 'admin',
+                    'email' => 'admin@admin.com',
+                    'password'=>'admin12345', 
+                    'mobile_number'=>'0777777777',
+                'role'=>'admin',
+    
+                ],
+               
+              
+            
+    
+    
+            ]);
+
+
+
+
+
+
+
 
      }
     }

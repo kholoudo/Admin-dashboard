@@ -8,7 +8,7 @@
     <div Class="landingpage-about-text">
       <h3>About Service Way</h3>
       <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      We are an online platform that is specialized in providing different types of most needed services in our daily life.Through Serviceway you can choose the service you are looking for and book it at a certain date and time taking in consideration your convenienty and vailability.
       </p>
     </div>
   </div>
