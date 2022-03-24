@@ -20,6 +20,7 @@ class Service extends Model
             ->withPivot('mobile_number')
             ->withPivot('date')
             ->withPivot('time')
+            ->withPivot('status')
             ->withPivot('note');
     }
 

@@ -34,6 +34,7 @@ class User extends Authenticatable
             ->withPivot('service_name')
             ->withPivot('date')
             ->withPivot('time')
+            ->withPivot('status')
             ->withPivot('note');
     }
 

@@ -28,7 +28,7 @@
         position: relative;
         display: inline-block;
         border: none;
-        border-radius: 0;
+        border-radius: 0.5rem;
         padding: 1.25rem 2.5rem;
         font-size: 1rem;
         text-transform: uppercase;
@@ -36,8 +36,12 @@
         transform: translateZ(0);
         transition: color 0.3s ease;
         letter-spacing: 0.0625rem;
-    text-align: center;}
-
+    text-align: center;
+background-color: #f1bb68;
+}
+.add-to-cart:hover{
+    background-color: #276FB4;
+}
 
 
 

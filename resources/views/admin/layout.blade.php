@@ -83,6 +83,14 @@
 
                         </div>
                     </div>
+
+                    <div class="nav-item dropdown">
+                        <a href={{ url('admin/contact') }} class="nav-link "><i class="fa fa-object-ungroup me-2"></i>Contacts</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+
+
+                        </div>
+                    </div>
                     {{-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link "><i class="fa fa-book me-2"></i>Resrvation</a>
                         <div class="dropdown-menu bg-transparent border-0"> --}}

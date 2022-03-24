@@ -88,6 +88,7 @@
                        We provide  a comprehensive preventive maintenance program to preserve and enhance the value, life, and beauty of your home.
                     </p>
                     <a class="btn" href="{{url('/maintenance')}}">Learn More</a>
+
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
@@ -95,7 +96,7 @@
                     <img src="{{ asset('img/babysitting.jpg') }}" alt="Service">
                     <h3>Baby Sitting</h3>
                     <p>
-                        Find a full-time, part-time, babysitter share or occasional trusted caregiver through schools and parenting groups.
+                        Whether you’re a busy family that needs a sitter periodically on a regular basis, or need reliable child care at the drop of a dime, Service Way can help
                     </p>
                     <a class="btn" href="{{url('/baby')}}">Learn More</a>
                 </div>
@@ -106,7 +107,7 @@
                     <img src="{{asset('img/private.jpg')}}" alt="Service">
                     <h3>Private Lessons</h3>
                     <p>
-                        Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare
+                        Whether you're taking exam classes or general language, adding private lessons to your schedule is a great way to improve your skills and understanding quickly.
                     </p>
                     <a class="btn" href="{{url('/lessons')}}">Learn More</a>
                 </div>

@@ -30,8 +30,8 @@
           <h1>Private Lessons</h1>
           <h2>JOD 3 per hour</h2>
           <div class="description"style="">
-            <p>The purposes of bonsai are primarily contemplation for the viewer, and the pleasant exercise of effort and ingenuity for the grower.</p>
-            <p>By contrast with other plant cultivation practices, bonsai is not intended for production of food or for medicine. Instead, bonsai practice focuses on long-term cultivation and shaping of one or more small trees growing in a container.</p>
+            <p>Students who supplement their core course with 1-1 lessons, benefit from the undivided attention of their teacher, who will make sure classes are structured to suit their student's needs. </p>
+            <p>Not only does this increase the knowledge and understanding input you receive in class, but you can also focus on what's important to you and study at your own pace. Many students enjoy the freedom this brings, as private lessons can be very flexible.</p>
           </div>
           <a href="{{url('/book')}}"> <button class="add-to-cart">Book Now</button></a>
         </div>

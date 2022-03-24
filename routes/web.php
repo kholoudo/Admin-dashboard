@@ -28,7 +28,8 @@ use Illuminate\Support\Facades\Route;
 
 
 Auth::routes();
-
+ROUTE::get('user-profile',[ProfileController::class,'index']);
+Route::post('/user-profile-update', [ProfileController::class, 'update'])->name('users.edit');
 
 Route::middleware(['auth','admin'])->group(function(){Route::get('/admin',[IndexController::class,'index']);
 Route::get('users', [UserController::class, 'index']);
@@ -45,8 +46,8 @@ Route::put('updatecategory/{id}',[CategoryController::class,'update']);
 Route::get('/admin/categories/add', [CategoryController::class, 'create'])->name('admin.categories.create');
 Route::post('/admin/categories/add', [CategoryController::class, 'store'])->name('admin.categories.store');
 Route::get('deletecategory/{id}', [CategoryController::class, 'destroy']);
-ROUTE::get('user-profile',[ProfileController::class,'index']);
-Route::post('/user-profile-update', [ProfileController::class, 'update'])->name('users.edit');
+Route::get('admin/contact', [App\Http\Controllers\admin\ContactController::class, 'index'])->name('admin.contacts');
+    Route::get('deleteContact/{id}', [App\Http\Controllers\admin\ContactController::class, 'destroy']);
 
 Route::get('admin/servicess',[App\Http\Controllers\admin\ServiceController::class,'index']);
 Route::get('editservice/{id}',[ServiceController::class,'edit']);

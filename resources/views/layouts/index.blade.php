@@ -54,19 +54,19 @@
                 <div class="event-card-body">
                     <img class='event-card-img-top' src={{ asset('img/education.jpeg')}}>
                     <h5>Educational Events</h5>
-                    <p class="card-text">lorem Ipsum dolor si met</p>
+                    <p class="card-text">Once they are launched, you will come across an event for every month that you can attend and benefit from in multiple ways.</p>
                     <a href="{{ url('/services') }}">  <button type="submit" class="btn btn-primary" style="background-color:#276FB4;margin-bottom:0.5em;">All Services</button></a>
                 </div>
                 <div class="event-card-body">
                     <img class='event-card-img-top' src={{ asset('img/communitywork.jpeg')}}>
                     <h5>Community Events</h5>
-                    <p class="card-text">lorem Ipsum dolor si met</p>
+                    <p class="card-text">Event communities connect like-minded people, providing opportunities for moments of inspiration that encourage members to engage and commit.</p>
                     <a href="{{ url('/services') }}"><button type="submit" class="btn btn-primary" style="background-color:#276FB4;margin-bottom:0.5em;">All Services</button></a>
                 </div>
                 <div class="event-card-body">
                     <img class='event-card-img-top' src={{ asset('img/kidsactivities.jpeg')}}>
                     <h5>Kids Events</h5>
-                    <p class="card-text">lorem Ipsunm dolor si met</p>
+                    <p class="card-text">Spend quality time with your kids and family while trying some fresh and fun activities.Variety of fun and creative activities willbe waiting you.</p>
                     <a href="{{ url('/services') }}"> <button type="submit" class="btn btn-primary" style="background-color:#276FB4;margin-bottom:0.5em;">All Services</button></a>
                 </div>
 

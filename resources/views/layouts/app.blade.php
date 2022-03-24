@@ -68,8 +68,8 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto">
+                <div class="collapse navbar-collapse justify-content-between" style="color:#276FB4;"id="navbarCollapse">
+                    <div class="navbar-nav ml-auto" >
                         <a   href="{{ url('/') }}" class="nav-item nav-link active">Home</a>
                         <a  href="{{ url('/about-us') }}" class="nav-item nav-link">About</a>
                         {{-- <a href="{{ url('/feature') }}" class="nav-item nav-link">Feature</a>

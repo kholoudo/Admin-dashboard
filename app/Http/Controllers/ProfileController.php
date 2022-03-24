@@ -19,7 +19,7 @@ class ProfileController extends Controller
             $orders = DB::table('services_users')->where('user_id','=',Auth::user()->id)
             ->join('users','services_users.user_id','=','users.id')
             ->join('services','services_users.service_id','=','services.id')
-            ->get(['name','users.mobile_number','services.service_name','date','time','status']);
+            ->get(['name','services_users.mobile_number','services.service_name','date','time','status']);
 
             return view('layouts.profile',compact('orders'));
         }

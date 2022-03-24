@@ -30,8 +30,8 @@
           <h2>Baby Sitting</h2>
           <h3>JOD5 per hour</h3>
           <div class="description"style="">
-            <p>The purposes of bonsai are primarily contemplation for the viewer, and the pleasant exercise of effort and ingenuity for the grower.</p>
-            <p>By contrast with other plant cultivation practices, bonsai is not intended for production of food or for medicine. Instead, bonsai practice focuses on long-term cultivation and shaping of one or more small trees growing in a container.</p>
+            <p> Based on your needs and specifications, we will match your family with a dedicated babysitter or nanny that you and your family will not only be comfortable, but impressed, with.</p>
+            <p>From your first phone call, our unique process takes into account, among other things, personality, needs and expectations  to match your family with the best possible fit.</p>
           </div>
           <a href="{{url('/book')}}"><button class="add-to-cart">Book Now</button></a>
         </div>

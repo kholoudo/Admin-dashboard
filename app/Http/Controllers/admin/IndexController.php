@@ -4,6 +4,7 @@ namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Category;
+use App\Models\Contact;
 use App\Models\Service;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -24,8 +25,10 @@ class IndexController extends Controller
         $allUsers = User::all();
         $allService = Service::all();
         $allCategory = Category::all();
+
         $allStatus = ['pending', 'accepted', 'rejected'];
-        $users = User::with('services')->where('role', 'user')->get();
+        $users = User::with('services')->where('role', 'user')->get(['*']);
+
         return view('admin.index', compact('allUsers', 'allService','allCategory','users','allStatus'));
 
         // $allUsers = User::all();
