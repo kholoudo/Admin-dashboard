@@ -25,9 +25,15 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('admin.index');
 // });
-Route::get('/',[IndexController::class,'index']);
 
+
+Auth::routes();
+
+
+Route::middleware(['auth','admin'])->group(function(){Route::get('/admin',[IndexController::class,'index']);
 Route::get('users', [UserController::class, 'index']);
+Route::get('/admin/dashboard', [IndexController::class, 'index'])->name('admin.index');
+Route::put('/admin/dashboard/{userId}/update/{pivotId}', [IndexController::class, 'update'])->name('index.update');
 Route::get('editUser/{id}', [UserController::class, 'edit']);
 Route::put('updateUser/{id}', [UserController::class, 'update']);
 Route::get('/admin/users/add', [UserController::class, 'create'])->name('admin.users.create');
@@ -42,15 +48,15 @@ Route::get('deletecategory/{id}', [CategoryController::class, 'destroy']);
 ROUTE::get('user-profile',[ProfileController::class,'index']);
 Route::post('/user-profile-update', [ProfileController::class, 'update'])->name('users.edit');
 
-Route::get('services',[ServiceController::class,'index']);
+Route::get('admin/servicess',[App\Http\Controllers\admin\ServiceController::class,'index']);
 Route::get('editservice/{id}',[ServiceController::class,'edit']);
 Route::put('updateservice/{id}',[ServiceController::class,'update']);
 Route::get('/admin/services/add', [ServiceController::class, 'create'])->name('admin.services.create');
 Route::post('/admin/services/add', [ServiceController::class, 'store'])->name('admin.services.store');
 Route::get('deleteservice/{id}', [ServiceController::class, 'destroy']);
+});
 
 
-Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

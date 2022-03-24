@@ -82,7 +82,7 @@
                         <div class="user-image"> <img src="img/mahdi.jpg" class="rounded-circle" width="80"> </div>
                         <div class="user-content">
                             <h5 class="mb-0">Mahdi</h5> <span>Software Developer</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>“Excellent service! Great communication, accountable, keep their promise. Service way always finds good people who are trustworthy and dependable. I would recommend your service to anyone in need quality service.”</p>
                         </div>
                         <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
                     </div>
@@ -92,7 +92,7 @@
                         <div class="user-image"> <img src="img/osama.jpg" class="rounded-circle" width="80"> </div>
                         <div class="user-content">
                             <h5 class="mb-0">Osama</h5> <span>Web Developer</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>“Communication between the office and us was very good. They kept us informed and up-dated. The maintenance worker did an excellent job on the repair work around our windows. We would have no hesitation in using their service again.”</p>
                         </div>
                         <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
                     </div>
@@ -102,7 +102,7 @@
                         <div class="user-image"> <img src="img/Haneen.jpg" class="rounded-circle" width="80"> </div>
                         <div class="user-content">
                             <h5 class="mb-0">Haneen</h5> <span>Software Architect</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>“The babysitter was excellent. Very warm and set our hearts at ease the minute she walked in the door. She was very entertaining and had our little on in bed before we got home.”</p>
                         </div>
                         <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
                     </div>

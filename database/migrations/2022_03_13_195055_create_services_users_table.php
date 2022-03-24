@@ -20,7 +20,7 @@ return new class extends Migration
             $table->unsignedBigInteger('service_id');
             $table->foreign('service_id')->references('id')->on('services')->onUpdate('cascade')->onDelete('cascade');
             $table->string('mobile_number');
-            $table->enum('status', ['pending', 'accepted'])->default('pending');
+            $table->enum('status', ['pending', 'accepted','rejected'])->default('pending');
 
             $table->string('date');
             $table->string('time');

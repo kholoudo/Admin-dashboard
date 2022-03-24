@@ -65,7 +65,7 @@
                     <img style="width:100%;height:100%;"src="{{ asset('img/cleaning.jpg') }}" alt="Service">
                     <h3>Home Cleaning</h3>
                     <p>
-                        Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare
+                        Life is too short to clean your own home! Our team at The Service waya is here for you.
                     </p>
                     <a class="btn" href="{{url('/homeclean')}}">Learn More</a>
                 </div>
@@ -75,7 +75,7 @@
                     <img src="{{ asset('img/carwash.png') }}" alt="Service">
                     <h3>Car Wash</h3>
                     <p>
-                        Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare
+                        High-quality hand wash, affordable prices. Get washed right where you parked at your office, apartment, or home.
                     </p>
                     <a class="btn" href="{{url('/car')}}">Learn More</a>
                 </div>
@@ -85,7 +85,7 @@
                     <img src="{{ asset('img/maintenance.jpg') }}" alt="Service">
                     <h3>Home Maintenance</h3>
                     <p>
-                        Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare
+                       We provide  a comprehensive preventive maintenance program to preserve and enhance the value, life, and beauty of your home.
                     </p>
                     <a class="btn" href="{{url('/maintenance')}}">Learn More</a>
                 </div>
@@ -95,7 +95,7 @@
                     <img src="{{ asset('img/babysitting.jpg') }}" alt="Service">
                     <h3>Baby Sitting</h3>
                     <p>
-                        Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare
+                        Find a full-time, part-time, babysitter share or occasional trusted caregiver through schools and parenting groups.
                     </p>
                     <a class="btn" href="{{url('/baby')}}">Learn More</a>
                 </div>

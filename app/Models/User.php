@@ -26,7 +26,7 @@ class User extends Authenticatable
         'mobile_number',
 
     ];
-    public function users()
+    public function services()
     {
         return $this->belongsToMany(Service::class, 'services_users')
             ->withPivot('id')

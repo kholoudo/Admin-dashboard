@@ -174,3 +174,22 @@
     font-weight: bold;
     color: #276FB4;
   }
+  @media  screen and (max-width: 768px){
+  .event-card-body{
+    width:100%;
+}
+.landingpage-explore-service {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  }
+  @media  screen and (max-width: 375px){
+    .landingpage-explore-service h5{
+        font-size: 1em;
+    }
+  }

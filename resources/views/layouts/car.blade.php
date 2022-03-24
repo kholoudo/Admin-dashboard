@@ -45,8 +45,9 @@
 
         </ul>
       <div class="description"style="">
-        <p>The purposes of bonsai are primarily contemplation for the viewer, and the pleasant exercise of effort and ingenuity for the grower.</p>
-        <p>By contrast with other plant cultivation practices, bonsai is not intended for production of food or for medicine. Instead, bonsai practice focuses on long-term cultivation and shaping of one or more small trees growing in a container.</p>
+        <p>Park where you normally do. Your car gets washed right there. For interior access, leave it unlocked or request to be contacted.</p>
+        <p>It is a unique mechanized car cleaning concept where cars are getting pampered by the latest equipments including high pressure cleaning machines, spray injection and extraction machines, high powered vacuum cleaners, steam cleaners and so on.
+        </p>
       </div>
       <a href="{{url('/book')}}"> <button class="add-to-cart">Book Now</button></a>
     </div>

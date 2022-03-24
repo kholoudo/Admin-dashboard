@@ -11,6 +11,6 @@ class ServiceController extends Controller
     {
         $services=Service::all();
         // dd($services[0]->);
-        return view('layouts.details', compact('services'));
+        return view('layouts.services', compact('services'));
     }
 }

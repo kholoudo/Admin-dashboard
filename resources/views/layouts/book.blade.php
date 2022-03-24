@@ -24,7 +24,7 @@
             <div class="col-lg-7">
                 <div class="booking-content">
                     <div class="section-header">
-                        <p>Book Now</p>
+                        {{-- <p>Book Now</p> --}}
                         <h2>Book Your Service Now</h2>
                     </div>
                     <div class="about-text">
