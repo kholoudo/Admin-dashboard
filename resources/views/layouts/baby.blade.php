@@ -27,8 +27,8 @@
           </div>
         </div>
         <div class="column-xs-12 column-md-5">
-          <h2>Baby Sitting</h2>
-          <h3>JOD5 per hour</h3>
+          <h3 style="margin-top:1em;">Baby Sitting</h3>
+          <h4>JOD5 per hour</h4>
           <div class="description"style="">
             <p> Based on your needs and specifications, we will match your family with a dedicated babysitter or nanny that you and your family will not only be comfortable, but impressed, with.</p>
             <p>From your first phone call, our unique process takes into account, among other things, personality, needs and expectations  to match your family with the best possible fit.</p>

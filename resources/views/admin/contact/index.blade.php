@@ -46,7 +46,7 @@
                         </td>
                         <td> --}}
                         <td>
-                            <a href="{{url('deletecontact/'.$contact->id)}}">
+                            <a href="{{url('deleteContact/'.$contact->id)}}">
                                 <button type="button" class="btn btn-danger">Delete</button>
                             </a>
                         </td>

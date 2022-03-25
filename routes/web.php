@@ -50,11 +50,11 @@ Route::get('admin/contact', [App\Http\Controllers\admin\ContactController::class
     Route::get('deleteContact/{id}', [App\Http\Controllers\admin\ContactController::class, 'destroy']);
 
 Route::get('admin/servicess',[App\Http\Controllers\admin\ServiceController::class,'index']);
-Route::get('editservice/{id}',[ServiceController::class,'edit']);
-Route::put('updateservice/{id}',[ServiceController::class,'update']);
-Route::get('/admin/services/add', [ServiceController::class, 'create'])->name('admin.services.create');
-Route::post('/admin/services/add', [ServiceController::class, 'store'])->name('admin.services.store');
-Route::get('deleteservice/{id}', [ServiceController::class, 'destroy']);
+Route::get('editservice/{id}',[App\Http\Controllers\admin\ServiceController::class,'edit']);
+Route::put('updateservice/{id}',[App\Http\Controllers\admin\ServiceController::class,'update']);
+Route::get('/admin/services/add', [App\Http\Controllers\admin\ServiceController::class, 'create'])->name('admin.services.create');
+Route::post('/admin/services/add', [App\Http\Controllers\admin\ServiceController::class, 'store'])->name('admin.services.store');
+Route::get('deleteservice/{id}', [App\Http\Controllers\admin\ServiceController::class, 'destroy']);
 });
 
 
@@ -75,8 +75,8 @@ Route::get('/services', function () {
     return view('layouts.services');
 });
 
-Route::get('/contact', [App\Http\Controllers\ContactController::class, 'index']);
-Route::post('/contact-store', [App\Http\Controllers\ContactController::class, 'store'])->name('contact-store');
+Route::get('/contact', [ContactController::class, 'index']);
+Route::post('/contact-store', [ContactController::class, 'store'])->name('contact-store');
 Route::get('/details',[ServiceController::class, 'index']);
 Route::get('/homeclean', function () {
     return view('layouts.homeclean');

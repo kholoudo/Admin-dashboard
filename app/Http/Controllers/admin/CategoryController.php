@@ -18,7 +18,7 @@ class CategoryController extends Controller
     public function index()
     {
         // $categories=Category::all();
-        $categories = Category::where('id',1)->get();
+        $categories = Category::all();
         return view('admin/categories/index', compact('categories'));
      }
 

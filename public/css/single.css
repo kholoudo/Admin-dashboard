@@ -1,4 +1,7 @@
-
+.column-xs-12 {
+    margin-right: 3em;
+    width: 100%;
+}
 
 .product-image {
   display: none;

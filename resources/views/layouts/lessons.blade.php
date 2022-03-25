@@ -27,8 +27,8 @@
           </div>
         </div>
         <div class="column-xs-12 column-md-5">
-          <h1>Private Lessons</h1>
-          <h2>JOD 3 per hour</h2>
+          <h3 style="margin-top:1em;">Private Lessons</h3>
+          <h4>JOD 3 per hour</h4>
           <div class="description"style="">
             <p>Students who supplement their core course with 1-1 lessons, benefit from the undivided attention of their teacher, who will make sure classes are structured to suit their student's needs. </p>
             <p>Not only does this increase the knowledge and understanding input you receive in class, but you can also focus on what's important to you and study at your own pace. Many students enjoy the freedom this brings, as private lessons can be very flexible.</p>

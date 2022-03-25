@@ -1,4 +1,9 @@
-
+.profile-head h5{
+    margin-left:1.5em;
+}
+.tab-pane{
+    margin:1.5em;
+}
 .emp-profile{
     padding: 3%;
     margin-top: 3%;
@@ -12,6 +17,10 @@
 .profile-img img{
     width: 70%;
     height: 100%;
+}
+#myTab{
+    display: flex;
+    flex-wrap: nowrap !important;
 }
 .profile-img .file {
     position: relative;

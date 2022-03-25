@@ -30,8 +30,8 @@
       </div>
     </div>
     <div class="column-xs-12 column-md-5">
-      <h1>Home Cleaning</h1>
-      <h2> 3 to 5 JOD Per hour</h2>
+      <h3 style="margin-top:1em;">Home Cleaning</h3>
+      <h4> 3 to 5 JOD Per hour</h4>
       <div class="description"style="">
         <p>We provide elite cleaning services designed to keep your home sparkling and beautiful so that you can focus on things that matter more, like your family and friends.</p>
         <p>Not only do we provide our customers with clean homes, but we do our part to keep the Earth clean, too. We focus on using green cleaning materials that are environmentally responsible or sustainable. We are one of the few cleaning services in Jordan to do this.</p>

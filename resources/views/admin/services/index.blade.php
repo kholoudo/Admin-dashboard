@@ -14,6 +14,8 @@
                         {{-- <th scope="col">Last Name</th> --}}
                         <th scope="col">Description</th>
                         {{-- <th scope="col">Country</th> --}}
+                        <th scope="col">Price</th>
+                        {{-- <th scope="col">Country</th> --}}
 
 
                     </tr>
@@ -28,6 +30,7 @@
                         <th scope="row">{{ $i++ }}</th>
                         <td>{{ $service->service_name }}</td>
                         <td>{{ $service->service_description }}</td>
+                        <td>{{ $service->service_price }}</td>
 
 
                         <td><a  href="{{url('editservice/'.$service->service_id)}}"><button type="button" class="btn btn-success"> Edit</button></a>

@@ -36,7 +36,7 @@
       </div>
     </div>
     <div class="column-xs-12 column-md-5">
-      <h1>Car Wash</h1>
+      <h3 style="margin-top:1em;">Car Wash</h3>
 
         <li class="details-l">Out: 3 JOD</li>
         <li class="details-l">In: 5 JOD</li>
@@ -45,7 +45,7 @@
 
         </ul>
       <div class="description"style="">
-        <p>Park where you normally do. Your car gets washed right there. For interior access, leave it unlocked or request to be contacted.</p>
+        {{-- <p>Park where you normally do. Your car gets washed right there. For interior access, leave it unlocked or request to be contacted.</p> --}}
         <p>It is a unique mechanized car cleaning concept where cars are getting pampered by the latest equipments including high pressure cleaning machines, spray injection and extraction machines, high powered vacuum cleaners, steam cleaners and so on.
         </p>
       </div>

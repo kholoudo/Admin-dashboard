@@ -48,6 +48,7 @@ class ServiceController extends Controller
         Service::create([
             'service_name' => $request->service_name,
             'service_description' => $request->service_description,
+            'service_price' => $request->service_price,
 
         ]);
 
@@ -79,6 +80,7 @@ class ServiceController extends Controller
 
 
         return view('admin.services.edit',compact('service'));
+        
     }
 
     /**

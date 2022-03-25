@@ -9,6 +9,12 @@ body{
     color:#276FB4;
 }
 
+.card-text{
+    text-align: center;
+    padding: 0.5em;
+}
+
+
 .landingpage-explore {
     /* background-color: #f0e76a; */
     padding: 2em;
@@ -194,5 +200,14 @@ body{
   @media  screen and (max-width: 375px){
     .landingpage-explore-service h5{
         font-size: 1em;
+
+    }
+    #image {
+        display: none;
+    }
+  }
+  @media  screen and (max-width: 426px){
+    #image {
+        display: none;
     }
   }

@@ -27,7 +27,7 @@
         <div Class="landingpage-about">
 
             <div Class="landingpage-about-img">
-              <img src={{ asset('img/about.jpg')}} alt="service" />
+              <img id="image"src={{ asset('img/about.jpg')}} alt="service" />
             </div>
             <div Class="landingpage-about-text">
               <h5>Who We Are</h5>
@@ -102,7 +102,7 @@
                         <div class="user-image"> <img src="img/Haneen.jpg" class="rounded-circle" width="80"> </div>
                         <div class="user-content">
                             <h5 class="mb-0">Haneen</h5> <span>Software Architect</span>
-                            <p>“The babysitter was excellent. Very warm and set our hearts at ease the minute she walked in the door. She was very entertaining and had our little on in bed before we got home.”</p>
+                            <p>“The babysitter was excellent. Very warm and set our hearts at ease<br> the minute she walked in the door.<br> She was very entertaining and had our little one in bed before we got home.”</p>
                         </div>
                         <div class="ratings"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
                     </div>
