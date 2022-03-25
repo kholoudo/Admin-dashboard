@@ -90,7 +90,7 @@
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
-                    <table style="width:100%">
+                    <table class="profile-table"style="width:100%">
                                 <th>Name</th>
                                 <th>Mobile number</th>
                                 <th>Service name</th>

@@ -64,11 +64,11 @@
                 <div class="container-fluid">
                     <img  class="navbar-brand" src={{ asset('img/logo100.png')}} alt="logo" />
                   </div>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                  <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div style="z-index: 99;" class="collapse navbar-collapse justify-content-between" style="color:#276FB4;"id="navbarSupportedContent">
+                <div class="collapse navbar-collapse justify-content-between" style="color:#276FB4;"id="navbarSupportedContent">
                     <div class="navbar-nav ml-auto" >
 
                         <a   href="{{ url('/') }}" class="nav-item nav-link active">Home</a>

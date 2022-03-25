@@ -97,7 +97,7 @@ class CategoryController extends Controller
 
 
         $category->update();
-    return redirect()->back();
+    return redirect('categories');
     }
 
     /**
