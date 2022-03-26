@@ -98,7 +98,7 @@ class ServiceController extends Controller
         $service->service_description=$request->input('service_description');
 
         $service->update();
-    return redirect()->back();
+    return redirect('admin/servicess');
     }
 
     /**
@@ -111,6 +111,6 @@ class ServiceController extends Controller
     {
         $service = Service::find($id);
         $service->delete();
-        return redirect('services');
+        return redirect('admin/servicess');
     }
 }

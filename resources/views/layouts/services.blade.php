@@ -65,7 +65,7 @@
                     <img style="width:100%;height:100%;"src="{{ asset('img/cleaning.jpg') }}" alt="Service">
                     <h3>Home Cleaning</h3>
                     <p>
-                        Life is too short to clean your own home! Our team at The Service waya is here for you.
+                        Life is too short to clean your own home! Our team at The Service way is here for you.
                     </p>
                     <a class="btn" href="{{url('/homeclean')}}">Learn More</a>
                 </div>

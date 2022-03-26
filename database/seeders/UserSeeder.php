@@ -24,23 +24,41 @@ class UserSeeder extends Seeder
             // 'role',
             // 'mobile_number',
             DB::table('users')->insert([
-            
-            
-        
+
+
+
                 [
-                   
+
                     'name' => 'admin',
                     'email' => 'admin@admin.com',
-                    'password'=>'admin12345', 
-                    'mobile_number'=>'0777777777',
+                    'password'=>'12345678',
+                    
                 'role'=>'admin',
-    
+
                 ],
-               
-              
-            
-    
-    
+
+               [ 'name' => 'kholoud',
+                'email' => 'kh@g.com',
+                'password'=>'12345678',
+
+            'role'=>'user',],
+
+            [ 'name' => 'ahmad',
+            'email' => 'ah@g.com',
+            'password'=>'12345678',
+
+        'role'=>'user',],
+
+        [ 'name' => 'haneen',
+        'email' => 'ha@g.com',
+        'password'=>'12345678',
+
+    'role'=>'user',]
+
+
+
+
+
             ]);
 
 
