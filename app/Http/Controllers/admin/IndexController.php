@@ -25,11 +25,11 @@ class IndexController extends Controller
         $allUsers = User::all();
         $allService = Service::all();
         $allCategory = Category::all();
-
+        $allContact = Contact::all();
         $allStatus = ['pending', 'accepted', 'rejected'];
         $users = User::with('services')->where('role', 'user')->get(['*']);
 
-        return view('admin.index', compact('allUsers', 'allService','allCategory','users','allStatus'));
+        return view('admin.index', compact('allUsers', 'allService','allCategory','users','allStatus','allContact'));
 
         // $allUsers = User::all();
         // $allService = Service::all();

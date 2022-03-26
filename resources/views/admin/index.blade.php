@@ -34,8 +34,8 @@
                 <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
                     <i class="fa fa-chart-pie fa-3x text-primary"></i>
                     <div class="ms-3">
-                        <p class="mb-2">Total Revenue</p>
-                        <h6 class="mb-0">$1234</h6>
+                        <p class="mb-2">Total Messages</p>
+                        <h6 class="mb-0">{{ count($allContact) }}</h6>
                     </div>
                 </div>
             </div>
