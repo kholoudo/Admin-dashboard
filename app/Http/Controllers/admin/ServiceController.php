@@ -49,12 +49,13 @@ class ServiceController extends Controller
             'service_name' => $request->service_name,
             'service_description' => $request->service_description,
             'service_price' => $request->service_price,
+            'category_id' => $request->category_id,
 
         ]);
 
         $request->flash();
         session()->flash('success', 'Service added successfully.');
-    return redirect('services');
+    return redirect('admin/servicess');
     }
 
     /**
@@ -74,13 +75,13 @@ class ServiceController extends Controller
      * @param  \App\Models\Service  $service
      * @return \Illuminate\Http\Response
      */
-    public function edit($service_id)
+    public function edit($id)
     {
-        $service = Service::find($service_id);
+        $service = Service::find($id);
 
 
         return view('admin.services.edit',compact('service'));
-        
+
     }
 
     /**
@@ -90,9 +91,9 @@ class ServiceController extends Controller
      * @param  \App\Models\Service  $service
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $service_id)
+    public function update(Request $request, $id)
     {
-        $service=Service::findOrFail($service_id);
+        $service=Service::findOrFail($id);
         $service->service_name=$request->input('service_name');
         $service->service_description=$request->input('service_description');
 
@@ -106,9 +107,9 @@ class ServiceController extends Controller
      * @param  \App\Models\Service  $service
      * @return \Illuminate\Http\Response
      */
-    public function destroy($service_id)
+    public function destroy($id)
     {
-        $service = Service::find($service_id);
+        $service = Service::find($id);
         $service->delete();
         return redirect('services');
     }

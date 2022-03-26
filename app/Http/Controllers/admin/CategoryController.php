@@ -73,10 +73,10 @@ class CategoryController extends Controller
      * @param  \App\Models\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function edit($category_id)
+    public function edit($id)
     {
 
-        $category = Category::find($category_id);
+        $category = Category::find($id);
 
 
             return view('admin.categories.edit',compact('category'));
@@ -90,9 +90,9 @@ class CategoryController extends Controller
      * @param  \App\Models\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $category_id)
+    public function update(Request $request, $id)
     {
-        $category=Category::findOrFail($category_id);
+        $category=Category::findOrFail($id);
         $category->category_name=$request->input('category_name');
 
 
@@ -106,9 +106,9 @@ class CategoryController extends Controller
      * @param  \App\Models\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function destroy($category_id)
+    public function destroy($id)
     {
-        $category = Category::find($category_id);
+        $category = Category::find($id);
         $category->delete();
         return redirect('categories');
     }

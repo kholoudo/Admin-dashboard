@@ -6,7 +6,7 @@
             <div class="card mt-2 mx-auto p-4 bg-light">
                 <div class="card-body bg-light">
                     <div class="container">
-                        <form id="contact-form" role="form" method="post" action="{{url('updatecategory/'.$category->category_id)}}">
+                        <form id="contact-form" role="form" method="post" action="{{url('updatecategory/'.$category->id)}}">
                             @csrf
                             @method('PUT')
                             <div class="controls ">

@@ -27,12 +27,12 @@
 
 
                         <td>
-                            <a  href="{{url('editcategory/'.$category->category_id)}}">
+                            <a  href="{{url('editcategory/'.$category->id)}}">
                             <button type="button" class="btn btn-success"> Edit</button>
                         </a>
 
                             <a
-                            href="{{url('deletecategory/'.$category->category_id)}}">
+                            href="{{url('deletecategory/'.$category->id)}}">
                             <button type="button" class="btn btn-danger"  >Delete</button>
                         </a>
                         </td>

@@ -17,7 +17,7 @@
                                         <div class="form-group"> <label for="form_name"> Name </label> <input id="form_name" type="text" name="service_name"    class="form-control" placeholder="Enter Service Name " required="required" data-error="Firstname is required."> </div>
                                         <div class="form-group"> <label for="form_name"> Description </label> <input id="form_name" type="text" name="service_description"    class="form-control" placeholder="Enter Service Description" required="required" data-error="Firstname is required."> </div>
                                         <div class="form-group"> <label for="form_name"> Price </label> <input id="form_name" type="text" name="service_price"    class="form-control" placeholder="Enter Price " required="required" data-error="Firstname is required."> </div>
-                                        <div class="form-group"> <label for="form_name"> Category </label> <input id="form_name" type="text" name="service_price"    class="form-control" placeholder="Enter Price " required="required" data-error="Firstname is required."> </div>
+                                        <div class="form-group"> <label for="form_name"> Category </label> <input id="form_name" type="text" name="category_id"    class="form-control" placeholder="Enter Price " required="required" data-error="Firstname is required."> </div>
 
                                     </div>
 

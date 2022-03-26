@@ -33,9 +33,9 @@
                         <td>{{ $service->service_price }}</td>
 
 
-                        <td><a  href="{{url('editservice/'.$service->service_id)}}"><button type="button" class="btn btn-success"> Edit</button></a>
+                        <td><a  href="{{url('editservice/'.$service->id)}}"><button type="button" class="btn btn-success"> Edit</button></a>
 
-                            <a  href="{{url('deleteservice/'.$service->service_id)}}"><button type="button" class="btn btn-danger"  >Delete</button></a>
+                            <a  href="{{url('deleteservice/'.$service->id)}}"><button type="button" class="btn btn-danger"  >Delete</button></a>
                         </td>
 
 

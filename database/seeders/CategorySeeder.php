@@ -17,29 +17,29 @@ class CategorySeeder extends Seeder
     {
         DB::table('categories')->insert([
             [
-                'category_name' => 'home_maintenance',
+                'category_name' => 'home maintenance',
 
             ],
             [
-                'category_name' => 'home_cleaning',
+                'category_name' => 'home cleaning',
 
             ],
-            
-            [
-                'category_name' => 'car_services',
 
-
-            ],
             [
-                'category_name' => 'educational',
+                'category_name' => 'car wash',
 
 
             ],
             [
-                'category_name' => 'Kids',
+                'category_name' => 'private lessons',
+
+
+            ],
+            [
+                'category_name' => 'baby sitting',
 
             ]
-        
+
         ]);
     }
 }
